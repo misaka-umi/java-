@@ -1,0 +1,14 @@
+#### 传递值，而不是引用：
+八个基本数据类型+字符串
+### cc操作数与操作符，由空格分割
+	i = i + 1; // 等价于 i += 1
+	thirdString = firstString + secondString;
+### The Unary
+	boolean success = true; //true
+	success = !sucess; //false
+### 
+	int i = 3;
+	System. out. printIn(i); //3
+	System. out. printIn(++i); //4
+	System. out. printIn(i++); //4
+	System. out. printIn(i); //5
