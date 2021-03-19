@@ -91,3 +91,22 @@ sbstract break byte boolean catch等
 * initialization expression 循环开始时执行一次，初始化表达式
 * termination expression 终止表达式结果为false时终止循环
 * increment expression 每次迭代后执行
+
+#### 遍历数组/集合的适用场景
+* for，指定遍历，需要基于索引/次数
+* switch
+
+#### Branching Statements
+	for ( int i = 0, i < nums.length,i++ ){
+		for(j = 0, j < nums2.length, j++ ){
+			if(nums1[i] == nums[j]){
+				System.out.printIn("same value: " + nums1[i]);
+				break；  //break终止j=0的循环
+				//continue; 完成本次循环
+				//return; 终止退出当前方法，因此也可结束循环
+				//return "Hello" + nums1[i]; 返回值
+				
+			}
+		}
+	}
+
