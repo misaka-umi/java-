@@ -90,4 +90,41 @@ public double calculate(double Weighted,double average,int point,int level){
 * 但是类显式声明了有参的，就不会自动创建
 * 声明访问修饰符，通过控制外部调用其构造函数来限制对象创建
 
+### this
+
+* 调用构造函数
+
+### creating objects
+
+* 声明
+```
+Bicycle bicycle;
+引用bicycle类型的变量，
+不会创建对象，需分配对象地址
+```
+* 实例化
+```
+Bicycle bicycle = new Bicycle( gear:5);
+//new操作符为对象分配内存，并返回该对象的内存地址给变量
+```
+* 初始化
+```
+Bicycle bicycle = new Bicycle( gear:5);
+//实例化的同时，调用构造函数完成初始化
+```
+* 总
+```
+Bicycle bicycle;
+Bicycle bicycle = new Bicycle( gear:5);
+```
+
+### 访问器
+getter和setter基于驼峰命名，布尔型方法is作前缀
+* 方法名称与属性名称一致，第三方库基于此命名
+### 111
+* 将对象的引用传递给方法，对对象的修改将影响对象本身
+* 
+
+
+
 
